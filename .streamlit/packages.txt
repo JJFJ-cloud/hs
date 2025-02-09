@@ -1,0 +1,14 @@
+# 地理空间核心依赖
+libgdal-dev      # GDAL 开发库
+proj-bin         # PROJ 坐标系工具
+libspatialindex-dev  # 空间索引支持
+
+# 可视化相关
+libgl1-mesa-glx  # OpenGL 支持（Matplotlib 3D 渲染等）
+
+# 图像处理
+ffmpeg           # 视频处理（如果用到 OpenCV 视频功能）
+
+# 编译工具（可选）
+build-essential  # C/C++ 编译工具链
+python3-dev      # Python 开发头文件
